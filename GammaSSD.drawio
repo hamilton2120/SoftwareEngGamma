@@ -1,0 +1,522 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="G9inPgFP6BDZje9nf77g">
+    <mxGraphModel dx="1674" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-1" value="Create Discussion Post" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="60" y="185" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-3" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="240" y="180" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-4" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="45" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-5" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="274" as="sourcePoint" />
+            <mxPoint x="289.5" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-6" value="postDiscussion(topic, description)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-7" value="upload discussion to board" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="321" as="sourcePoint" />
+            <mxPoint x="130" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-8" value="Edit Discussion Post" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="405" y="185" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-10" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="585" y="180" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-11" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-12" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="415" y="274" as="sourcePoint" />
+            <mxPoint x="634.5" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-13" value="editDiscussion(newTopic, newDescription)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-14" value="changes aspect of the post" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="635" y="321" as="sourcePoint" />
+            <mxPoint x="475" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-15" value="Delete Discussion Post" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="795" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-16" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="722" y="185" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-17" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="937" y="180" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-18" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="707" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-19" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" source="Y6QBf6ZsKKoxdUgE2hy5-16" target="Y6QBf6ZsKKoxdUgE2hy5-17" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="755" y="274" as="sourcePoint" />
+            <mxPoint x="974.5" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-20" value="deleteDiscussion()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-21" value="remove discussion and comments from board" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="986.5" y="314" as="sourcePoint" />
+            <mxPoint x="731.5" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-22" value="Send IMS Message" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-23" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="60" y="465" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-24" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="240" y="460" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-25" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="45" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-26" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="554" as="sourcePoint" />
+            <mxPoint x="289.5" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-27" value="sendMessage(recipient, message)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-28" value="send message to desired recipient" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="601" as="sourcePoint" />
+            <mxPoint x="130" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-29" value="Delete IMS Message" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-30" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="405" y="465" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-31" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="585" y="460" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-32" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-33" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="415" y="554" as="sourcePoint" />
+            <mxPoint x="634.5" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-34" value="delMessage()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-35" value="removes selected message from chat" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-30" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="635" y="601" as="sourcePoint" />
+            <mxPoint x="475" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-36" value="Upload Deliverable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="795" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-37" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="745" y="465" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-38" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="925" y="460" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-39" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="730" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-40" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="755" y="554" as="sourcePoint" />
+            <mxPoint x="974.5" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-41" value="uploadDeliverable(file)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-42" value="uploads deliverable to the app" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="975" y="582" as="sourcePoint" />
+            <mxPoint x="754.5" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-43" value="notify admin that deliverable is complete" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="975.5" y="610" as="sourcePoint" />
+            <mxPoint x="755" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-44" value="Create Deliverable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-45" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="185" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-46" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1285" y="180" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-47" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-48" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1115" y="274" as="sourcePoint" />
+            <mxPoint x="1334.5" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-49" value="createDeliverable(topic, description, due date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-50" value="creates deliverable submission portal" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1335" y="301" as="sourcePoint" />
+            <mxPoint x="1114.5" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-51" value="Remind User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-52" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="465" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-53" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1285" y="460" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-54" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-55" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1115" y="554" as="sourcePoint" />
+            <mxPoint x="1334.5" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-56" value="notifyUser(user, message)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-57" value="sends specified user message" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-52" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1335" y="601" as="sourcePoint" />
+            <mxPoint x="1175" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-58" value="[due dates past / near]" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="510" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-59" value="Delete Deliverable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1495" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-60" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="1445" y="185" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-61" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1625" y="180" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-62" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1425" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-63" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1455" y="274" as="sourcePoint" />
+            <mxPoint x="1674.5" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-64" value="delDeliverable()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-65" value="removes deliverable submission space" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1675" y="303" as="sourcePoint" />
+            <mxPoint x="1454.5" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-66" value="notifies all users within project" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1334.5" y="331" as="sourcePoint" />
+            <mxPoint x="1114" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-67" value="notifies all users within project" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1675" y="330" as="sourcePoint" />
+            <mxPoint x="1454.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-68" value="Upload to Calendar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1495" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-69" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="1445" y="465" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-70" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1625" y="460" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-71" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1425" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-72" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1455" y="544" as="sourcePoint" />
+            <mxPoint x="1674.5" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-73" value="addCalItem(task, due date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-72" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-74" value="adds the task to the calender at the specified date" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0431" y="-13" width="160" relative="1" as="geometry">
+            <mxPoint x="1675" y="583" as="sourcePoint" />
+            <mxPoint x="1454.5" y="583" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-75" value="notifies all users within project" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1675" y="610" as="sourcePoint" />
+            <mxPoint x="1454.5" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-76" value="Create User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-77" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="60" y="745" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-78" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="240" y="740" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-79" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-80" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="834" as="sourcePoint" />
+            <mxPoint x="289.5" y="834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-81" value="newUser(name, title, email, dept),&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-80" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-82" value="creates a new user profile with given info" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-77" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="881" as="sourcePoint" />
+            <mxPoint x="130" y="881" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-83" value="Edit User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-84" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="405" y="745" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-85" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="585" y="740" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-86" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="385" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-87" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="415" y="834" as="sourcePoint" />
+            <mxPoint x="634.5" y="834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-88" value="editUser(name, title, email, dept, user)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y6QBf6ZsKKoxdUgE2hy5-87" vertex="1" connectable="0">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6QBf6ZsKKoxdUgE2hy5-89" value="edits the given user with the new info" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="Y6QBf6ZsKKoxdUgE2hy5-84" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="635" y="881" as="sourcePoint" />
+            <mxPoint x="475" y="881" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-1" value="Delete User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="745" y="745" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-3" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="925" y="740" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-4" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-5" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="755" y="834" as="sourcePoint" />
+            <mxPoint x="974.5" y="834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-6" value="delUser(user)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8pz4UaSu-3qPfdASY4A6-5">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-7" value="deletes the specified user" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" target="8pz4UaSu-3qPfdASY4A6-2" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="975" y="881" as="sourcePoint" />
+            <mxPoint x="815" y="881" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-8" value="Edit Calendar Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="745" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-10" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1285" y="740" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-11" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-12" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1115" y="824" as="sourcePoint" />
+            <mxPoint x="1334.5" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-13" value="editCalItem(task, due date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8pz4UaSu-3qPfdASY4A6-12">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-14" value="edits the task on the calender" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0431" y="-13" width="160" relative="1" as="geometry">
+            <mxPoint x="1335" y="863" as="sourcePoint" />
+            <mxPoint x="1114.5" y="863" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-15" value="notifies all users within project" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1335" y="890" as="sourcePoint" />
+            <mxPoint x="1114.5" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-16" value="Delete Calendar Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-17" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="745" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-18" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1625" y="740" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-19" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-20" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1455" y="824" as="sourcePoint" />
+            <mxPoint x="1674.5" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-21" value="delCalItem(task, due date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8pz4UaSu-3qPfdASY4A6-20">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-22" value="deletes the task from the calendar" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0431" y="-13" width="160" relative="1" as="geometry">
+            <mxPoint x="1675" y="863" as="sourcePoint" />
+            <mxPoint x="1454.5" y="863" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-23" value="notifies all users within project" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1675" y="890" as="sourcePoint" />
+            <mxPoint x="1454.5" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-24" value="Edit Deliverable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-25" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1025" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-26" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="1020" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-27" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-28" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="1114" as="sourcePoint" />
+            <mxPoint x="289.5" y="1114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-29" value="editDeliverable(topic, description, due date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8pz4UaSu-3qPfdASY4A6-28">
+          <mxGeometry x="-0.0511" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-30" value="edits a selected deliverable" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="1141" as="sourcePoint" />
+            <mxPoint x="69.5" y="1141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pz4UaSu-3qPfdASY4A6-31" value="notifies all users within project" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="289.5" y="1171" as="sourcePoint" />
+            <mxPoint x="69" y="1171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
